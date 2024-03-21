@@ -4,8 +4,19 @@ import Portfolio from './components/Portfolio';
 import Timeline from './components/Timeline';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+
 function App() {
-	return <>Welcome to my portfolio</>;
+	return (
+		<>
+			<div className='App bg-[#EEE4B1] '>
+				<Intro />
+				<Portfolio />
+				<Timeline />
+				<Contact />
+				<Footer />
+			</div>
+		</>
+	);
 }
 
 export default App;
