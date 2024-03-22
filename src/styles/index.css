@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.profile-image {
+    background: url(../assets/profile.jpg);
+    height: 200px;
+    width: 200px;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
