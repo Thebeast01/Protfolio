@@ -1,7 +1,7 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 .profile-image {
     background: url(../assets/profile.jpg);
     height: 200px;
